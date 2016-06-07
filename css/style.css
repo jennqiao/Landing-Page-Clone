@@ -1,0 +1,63 @@
+body {
+	background-color: LightGray;
+}
+
+div {
+	border: 1px solid Chocolate;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+nav {
+	background-color: white;
+}
+
+.content
+{
+	width: 60rem;
+	height: 4.375rem;
+	margin: 0 auto;
+	padding: 0px 15px;
+
+}
+
+.logo {
+	margin-top: 15px;
+}
+
+.navbar-links {
+		float: right;
+		margin-top: 1.7rem;
+		-webkit-font-smoothing: antialiased;
+		color: #838994;
+
+}
+.navbar-links > li {
+	display: inline-block;
+}
+
+.navbar-links > li > a {
+	text-decoration: none;
+	margin-left: 1.5rem;
+	color: inherit;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+
+}
+
+li> .active {
+	color: #4c5058;
+	font-weight:500;
+}
+
+a:hover {
+	 color: #333333;
+	 cursor: pointer;
+}
