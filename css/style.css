@@ -98,17 +98,23 @@ a:hover {
 
 }
 
-.button {
+button {
 	background-color: #f15a29;
-	border-style: none;
-	color: white;
+	border: none;
 	padding: 1rem 1.5rem;
-	text-decoration: none;
 	font-size: 1.2rem;
+	text-decoration: none;
 
 }
 
-.button:hover {
+button > a {
+	text-decoration: none;
+		color: white;
+
+}
+
+
+button:hover {
 	background-color: ##d9400e;
 	cursor: pointer;
 
