@@ -1,5 +1,7 @@
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 div {
@@ -46,7 +48,6 @@ nav {
 	text-decoration: none;
 	margin-left: 1.5rem;
 	color: inherit;
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.03em;
 
@@ -60,4 +61,55 @@ li> .active {
 a:hover {
 	 color: #333333;
 	 cursor: pointer;
+}
+
+.first-section {
+	background-image: url(../images/background-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+
+	height: 45.9rem;
+}
+
+.first-section-content {
+	margin: 0 auto;
+	width: 46rem;
+	color: white;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+
+
+
+}
+
+.title {
+	font-size: 3.125rem;
+	font-weight: 100;
+	margin-top: 13rem;
+	margin-bottom: 0;
+
+}
+
+.subtitle {
+	letter-spacing: 0.03em;
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+
+}
+
+.button {
+	background-color: #f15a29;
+	border-style: none;
+	color: white;
+	padding: 1rem 1.5rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+
+}
+
+.button:hover {
+	background-color: ##d9400e;
+	cursor: pointer;
+
 }
