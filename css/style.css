@@ -1,5 +1,5 @@
 body {
-	background-color: LightGray;
+	background-color: white;
 	font-family: 'Roboto', sans-serif;
 
 }
@@ -53,12 +53,12 @@ nav {
 
 }
 
-li> .active {
+.navbar-links > li> .active {
 	color: #4c5058;
 	font-weight:500;
 }
 
-a:hover {
+.navbar-links > li > a:hover {
 	 color: #333333;
 	 cursor: pointer;
 }
@@ -104,18 +104,63 @@ button {
 	padding: 1rem 1.5rem;
 	font-size: 1.2rem;
 	text-decoration: none;
+	border-radius: 4px;
 
 }
 
 button > a {
 	text-decoration: none;
-		color: white;
+	color: white;
 
+}
+
+button > a:hover {
+	color: white;
 }
 
 
 button:hover {
-	background-color: ##d9400e;
+	background-color: #d9400e;
 	cursor: pointer;
+
+}
+
+.second-section {
+	height: 550px;
+}
+
+.second-section-content {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+}
+
+.second-section-title {
+	font-size: 2.75rem;
+	margin-top: 1.625rem;
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+.section-icons {
+	padding-left: 0;
+
+}
+.section-icons > li {
+	display: inline-block;
+	margin-left: .5rem;
+	margin-right: .5rem;
+}
+
+.second-section-subtitles {
+	font-size: 1.5rem;
+	text-align: center;
 
 }
