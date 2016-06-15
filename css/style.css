@@ -18,6 +18,9 @@ html {
 
 nav {
 	background-color: white;
+	position: fixed;
+	width: 100%;
+		z-index:9999;
 }
 
 .content
@@ -26,6 +29,7 @@ nav {
 	height: 4.375rem;
 	margin: 0 auto;
 	padding: 0px 15px;
+
 
 }
 
@@ -38,6 +42,7 @@ nav {
 		margin-top: 1.7rem;
 		-webkit-font-smoothing: antialiased;
 		color: #838994;
+
 
 }
 .navbar-links > li {
@@ -78,6 +83,7 @@ nav {
 	color: white;
 	text-align: center;
 	-webkit-font-smoothing: antialiased;
+	padding-top: 3rem;
 
 
 
@@ -126,7 +132,7 @@ button:hover {
 }
 
 .second-section {
-	height: 550px;
+	height: 300px;
 }
 
 .second-section-content {
@@ -135,6 +141,7 @@ button:hover {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	border: 1px solid black;
 
 
 }
@@ -149,18 +156,24 @@ button:hover {
 
 }
 
-.section-icons {
-	padding-left: 0;
-
-}
-.section-icons > li {
-	display: inline-block;
-	margin-left: .5rem;
-	margin-right: .5rem;
-}
 
 .second-section-subtitles {
 	font-size: 1.5rem;
 	text-align: center;
 
 }
+
+.second-section-content > .devices {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 6em;
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
