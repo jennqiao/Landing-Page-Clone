@@ -177,3 +177,37 @@ button:hover {
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
+.footer-title {
+	margin-top: 5rem;
+	text-align: center;
+}
+
+.icons > li {
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 1.25rem;
+	border: 1px solid #eaebec;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 1.25rem 5px;
+	padding: 0.6rem 0;
+	text-align: center;
+}
+
+.icons {
+	margin: 0 auto;
+	padding: 0 0;
+}
+
+.fa-twitter {
+	color: #55acee;
+}
+
+.fa-facebook, .fa-instagram {
+	color: #4c66a4;
+}
+
+.fa:hover {
+		 cursor: pointer;
+
+}
